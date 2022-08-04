@@ -1,12 +1,12 @@
 import './App.css';
+import Home from './pages/Home';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
     return (
-        <div className="conatiner mt-5">
-            <div className="text-center">
-                <h1>Hello World</h1>
-            </div>
-        </div>
+        <Routes>
+            <Route path="/" element={<Home />} />
+        </Routes>
     );
 }
 

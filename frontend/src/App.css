@@ -1,4 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 body {
   background-color: #282c34;
   color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.section-1{
+    background-color: rgb(51, 58, 73);
+    background-image: url("https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-blend-mode: multiply;
+}
+
+.hometop{
+  animation: comeup 1s ease-in-out;
+}
+.title{
+  font-size: 10rem;
+  text-align: center;
+}
+
+@keyframes comeup {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.section-2{
+  background-color: #282c34;
+  color: white;
+  margin: 1rem;
+}
+
+.card-title{
+  color: black;
+  font-size: 2rem;
+}
+
+.class-title{
+  font-size: 3.5rem;
 }
