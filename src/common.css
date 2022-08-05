@@ -1,0 +1,13 @@
+footer{
+    background-color: #201f1f;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    white-space: nowrap;
+}
+
+a, a:hover, a:focus {
+    color: white;
+    text-decoration: none;
+}

@@ -1,10 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import About from '../components/About'
+import Footer from '../components/Footer'
+import '../App.css';
+import '../common.css'
 
 function Home() {
   return (
-    <div>
+    <>
         <Navbar active={{home: "active", class: ""}} />
         <div className="text-center section-1">
             <div className="container mt-5">
@@ -58,7 +61,8 @@ function Home() {
             </div>
         </div>
         <About />
-    </div>
+        <Footer />
+    </>
   )
 }
 
