@@ -6,7 +6,7 @@ function About() {
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
-                        <img src="/gym-1.jpeg" alt="" />
+                        <img src="/gym-1.jpeg" alt="" className='gym-guy' />
                     </div>
                     <div class="col about">
                         <h2>About Us</h2>

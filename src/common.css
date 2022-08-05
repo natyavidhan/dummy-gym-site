@@ -20,3 +20,11 @@ a, a:hover, a:focus {
     color: rgb(0, 0, 0);
     white-space: nowrap;
 }
+
+.contact-content{
+    padding-block: 1.5rem;
+}
+
+input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
