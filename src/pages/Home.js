@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import About from '../components/About'
 
 function Home() {
   return (
@@ -20,42 +21,43 @@ function Home() {
         <div className="section-2 mt-5 mb-5">
             <div className="container text-center">
                 <h2 className='class-title'>Classes</h2>
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
-                        <div class="card text-bg-dark">
-                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=487,fit=crop/bronxltdlm/lalalalaldsfdfsgd-mp01aEkz4pC4bE1J.png" class="card-img-top" alt="..."/>
-                            <div class="card-body">
-                                <h5 class="card-title">Cardio</h5>
+                <div className="row row-cols-1 row-cols-md-2 g-4">
+                    <div className="col">
+                        <div className="card text-bg-dark">
+                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=487,fit=crop/bronxltdlm/lalalalaldsfdfsgd-mp01aEkz4pC4bE1J.png" className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">Cardio</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card text-bg-dark">
-                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=487,fit=crop/bronxltdlm/woman-in-black-sports-bra-and-black-pants-sitting-on-white-m26LKr5ZNeiyXWBK.jpg" class="card-img-top" alt="..."/>
-                            <div class="card-body">
-                                <h5 class="card-title">AirYoga</h5>
+                    <div className="col">
+                        <div className="card text-bg-dark">
+                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=487,fit=crop/bronxltdlm/woman-in-black-sports-bra-and-black-pants-sitting-on-white-m26LKr5ZNeiyXWBK.jpg" className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">AirYoga</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card text-bg-dark">
-                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=487,fit=crop/bronxltdlm/Rectangle-YbxWoy3LQXubRjXv.png" class="card-img-top" alt="..."/>
-                            <div class="card-body">
-                                <h5 class="card-title">Lifting</h5>
+                    <div className="col">
+                        <div className="card text-bg-dark">
+                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=487,fit=crop/bronxltdlm/Rectangle-YbxWoy3LQXubRjXv.png" className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">Lifting</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card text-bg-dark">
-                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=487,fit=crop/bronxltdlm/woman-lifting-barbell-m57zVrgrrLSW97Vy.jpg" class="card-img-top" alt="..."/>
-                            <div class="card-body">
-                                <h5 class="card-title">Press & Back</h5>
+                    <div className="col">
+                        <div className="card text-bg-dark">
+                            <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=656,h=487,fit=crop/bronxltdlm/woman-lifting-barbell-m57zVrgrrLSW97Vy.jpg" className="card-img-top" alt="..."/>
+                            <div className="card-body">
+                                <h5 className="card-title">Press & Back</h5>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <About />
     </div>
   )
 }

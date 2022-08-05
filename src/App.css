@@ -55,3 +55,28 @@ body {
 .card-img-top{
   padding: 1rem;
 }
+
+.card:hover{
+  transform: scale(1.05);
+  transition: all 0.25s ease-in-out;
+}
+
+.card{
+  transition: all 0.25s ease-in-out;
+
+}
+
+.section-3{
+  background-color: black;
+}
+
+.about{
+  padding: 5rem;
+  text-align: right;
+}
+
+@media screen and (max-width: 990px) {
+  .about{
+    text-align: center;
+  }
+}

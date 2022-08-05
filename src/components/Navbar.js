@@ -4,19 +4,19 @@ import PropTypes from 'prop-types'
 function Navbar(props) {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Heavy Metal Gym</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="#">Heavy Metal Gym</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto">
-                            <li class="nav-item">
-                                <a class={`nav-link ${props.active.home}`} aria-current="page" href="#">Home</a>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav me-auto">
+                            <li className="nav-item">
+                                <a className={`nav-link ${props.active.home}`} aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class={`nav-link ${props.active.class}`} href="#">Classes</a>
+                            <li className="nav-item">
+                                <a className={`nav-link ${props.active.class}`} href="#">Classes</a>
                             </li>
                         </ul>
                     </div>
