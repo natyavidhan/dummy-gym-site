@@ -13,30 +13,30 @@ function Plans() {
             <h1 className="text-center">
                 Prices & Plans
             </h1>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
+            <div className="container">
+                <div className="row row-cols-1 row-cols-md-2 g-4">
+                    <div className="col">
                         <PlanCard
                             title="Basic"
                             price={1000}
                             benefits={["one", "two", "three"]}
                         />
                     </div>
-                    <div class="col">
+                    <div className="col">
                         <PlanCard
                             title="Pro"
                             price={1500}
                             benefits={["one", "two", "three"]}
                         />
                     </div>
-                    <div class="col">
+                    <div className="col">
                         <PlanCard
                             title="Premium"
                             price={2000}
                             benefits={["one", "two", "three"]}
                         />
                     </div>
-                    <div class="col">
+                    <div className="col">
                         <PlanCard
                             title="Ultimate"
                             price={3000}
