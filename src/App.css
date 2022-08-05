@@ -44,10 +44,14 @@ body {
 }
 
 .card-title{
-  color: black;
+  /* color: black; */
   font-size: 2rem;
 }
 
 .class-title{
   font-size: 3.5rem;
+}
+
+.card-img-top{
+  padding: 1rem;
 }
