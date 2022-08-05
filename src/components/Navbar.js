@@ -19,6 +19,15 @@ function Navbar(props) {
                             <li className="nav-item">
                                 <Link className={`nav-link ${props.active.class}`} to="/classes">Classes</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link className={`nav-link ${props.active.plans}`} to="/plans">Plans</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className={`nav-link ${props.active.schedule}`} to="/schedule">Schedule</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className={`nav-link ${props.active.contact}`} to="/contact">Contact</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ import '../common.css'
 function Home() {
   return (
     <>
-        <Navbar active={{home: "active", class: ""}} />
+        <Navbar active={{home: "active", class: "", plans: "", schedule: "", contact: ""}} />
         <div className="text-center section-1">
             <div className="container mt-5">
                 <div className="hometop">

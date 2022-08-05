@@ -7,7 +7,7 @@ import "../classes.css"
 function Classes() {
   return (
     <>
-        <Navbar active={{home: "", class: "active"}} />
+        <Navbar active={{home: "", class: "active", plans: "", schedule: "", contact: ""}} />
         <div className="container mt-5 text-center">
             <h1>Classes</h1>
             <div className="row row-cols-1 row-cols-md-2 g-4">
