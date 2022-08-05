@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import About from '../components/About'
 import Footer from '../components/Footer'
+import BottomBanner from '../components/BottomBanner'
 import '../App.css';
 import '../common.css'
 
@@ -23,7 +24,7 @@ function Home() {
         </div>
         <div className="section-2 mt-5 mb-5">
             <div className="container text-center">
-                <h2 className='class-title'>Classes</h2>
+                <h2 className='class-title'>Popular Classes</h2>
                 <div className="row row-cols-1 row-cols-md-2 g-4">
                     <div className="col">
                         <div className="card text-bg-dark">
@@ -61,6 +62,7 @@ function Home() {
             </div>
         </div>
         <About />
+        <BottomBanner />
         <Footer />
     </>
   )

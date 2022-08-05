@@ -11,3 +11,12 @@ a, a:hover, a:focus {
     color: white;
     text-decoration: none;
 }
+
+.bottom-banner{
+    background-color: #ffffff;
+    padding: 3rem;
+    /* text-align: center; */
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+}
